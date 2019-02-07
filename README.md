@@ -1,4 +1,6 @@
-# Plentiful is an e-commerce mockup including user profiling, order tracking, and recommendation systems. A full-stack application using React-Redux for front-end and Spring Boot for back-end.
+# Plentiful
+
+## Plentiful is an e-commerce mockup including user profiling, order tracking, and recommendation systems. A full-stack application using React-Redux for front-end and Spring Boot for back-end.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
