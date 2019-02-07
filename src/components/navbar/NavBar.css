@@ -1,0 +1,81 @@
+/* * {
+  outline: 1px solid pink;
+} */
+
+.navbar {
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  opacity: .98;
+  color: white;
+  position: fixed;
+  box-shadow: 0 0 8px 6px black;
+}
+
+.navRow {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContainer {
+  display: flex;
+}
+
+.leftNav {
+  width: 55%;
+}
+
+.centerNav{
+
+}
+
+.rightNav {
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+  text-shadow: 0px 10px 5px black;
+}
+
+.navbar-brand:hover {
+  color: white;
+  text-shadow: 2px 0px 10px darkgray;
+}
+
+.brandIcon {
+  margin-top: 5px;
+  color: goldenrod;
+  margin-right: 15px;
+  transform: rotate(30deg);
+  text-shadow: 0px 5px 5px black;
+}
+
+.navLinks i {
+  margin-left: 5px;
+}
+
+.rightNav ul {
+  display: flex;
+}
+
+.navLinks {
+  list-style-type: none;
+  margin: 20px 5px 0px 15px;
+  text-shadow: 0px 4px 5px black;
+}
+
+.navLinks a {
+  color: white;
+}
+
+.navLinks a:hover {
+  text-decoration: none;
+}
+
+.navLinks span:hover {
+  color: darkgray;
+}

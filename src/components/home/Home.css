@@ -1,0 +1,42 @@
+.homeContainer {
+  height: 90vh;
+  margin: auto;
+  margin-top: 12vh;
+  border: 1px solid black;
+}
+
+.mainAdRow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  height: 30vh;
+  margin: auto;
+  margin-top: 15%;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.categoryRow {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+  z-index: 1;
+  margin: 2%;
+  width: 21%;
+  height: 35vh;
+  color: black;
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0px 0px 4px 1px black;
+}
+
+.category h4 {
+  font-size: 19px;
+  margin-top: 30%;
+}
