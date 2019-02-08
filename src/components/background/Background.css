@@ -1,10 +1,11 @@
 .parallaxBackground {
-  background: url("https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=5399&q=80");
+  background: url("https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&auto=format&fit=crop&w=5399&q=80"), gray;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: absolute;
-  height: 90%;
+  height: 150%;
   width: 100%;
   z-index: -1;
+  top: 0;
 }
