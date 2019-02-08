@@ -13,7 +13,11 @@ class NavBar extends Component {
           </div>
           <div className="navContainer rightNav">
             <ul>
-              <li className="navLinks"><a href="#"><span>Search</span><i className="fa fa-search fa-lg"></i></a></li>
+              <li className="navLinks">
+                <div className="searchItem">
+                  <a><input type="text" className="search-input" placeholder="Search" name="search" /><span>Search</span><i className="fa fa-search fa-lg" /></a>
+                </div>
+            </li>
               <li className="navLinks"><a href="#"><span>Login</span><i class="fa fa-user fa-lg"></i></a></li>
               <Link to="/cart">
                 <li className="navLinks"><a href="#"><span>Cart</span><i class="fa fa-shopping-cart fa-lg"></i></a></li>

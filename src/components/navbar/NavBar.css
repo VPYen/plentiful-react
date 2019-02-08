@@ -24,19 +24,19 @@
 }
 
 .leftNav {
-  width: 55%;
+  width: 45%;
 }
 
 .centerNav{
-
 }
 
 .rightNav {
+  width: 50%;
 }
 
 .navbar-brand {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   font-family: serif;
   text-shadow: 0px 10px 5px black;
 }
@@ -60,12 +60,47 @@
 
 .rightNav ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .navLinks {
   list-style-type: none;
-  margin: 20px 5px 0px 15px;
+  margin: 20px 5px 0px 10px;
   text-shadow: 0px 4px 5px black;
+}
+
+.searchItem {
+  width: 280px;
+  cursor: default;
+}
+
+.searchItem > * {
+  float: right;
+}
+
+.searchItem:hover .search-input {
+  width: 200px;
+  visibility: visible;
+  transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.search-input:focus {
+  width: 200px;
+  visibility: visible;
+}
+
+.search-input {
+  width: 0px;
+  margin-right: 5px;
+  border-radius: 8px;
+  visibility: hidden;
+  transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
 }
 
 .navLinks a {
@@ -78,4 +113,31 @@
 
 .navLinks span:hover {
   color: darkgray;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .brandIcon {
+    font-size: 30px;
+  }
+  .navbar-brand {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .leftNav {
+    width: 30%;
+  }
+  .rightNav {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .search-input {
+    width: 200px;
+    visibility: visible;
+  }
+  .leftNav {
+    width: 50%;
+  }
 }
