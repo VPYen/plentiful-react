@@ -1,3 +1,26 @@
 .cartComponent {
+  display: flex;
   margin-top: 10%;
+}
+
+.cartContainer {
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+  min-height: 70vh;
+  border: 1px solid black;
+  background: #FFFF;
+}
+
+.checkoutContainer {
+  width: 30%;
+  margin: 1%;
+  padding: 1%;
+  min-height: 70vh;
+  border: 1px solid black;
+  background: #FFFF;
+}
+
+.cartContainer hr, .checkoutContainer hr {
+  background: gray;
 }

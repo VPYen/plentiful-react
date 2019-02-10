@@ -18,6 +18,10 @@
   display: inline-block;
 }
 
+.mainAdRow h1 {
+  margin-top: 5%;
+}
+
 .categoryRow {
   margin: auto;
   display: flex;
